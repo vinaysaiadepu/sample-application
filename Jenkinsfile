@@ -3,7 +3,6 @@ def getDockerTag() {
  return tag
 }
 pipeline{
-
       environment {
           Docker_tag = getDockerTag()
       }
